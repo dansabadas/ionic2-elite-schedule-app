@@ -18,3 +18,8 @@ $ ionic start myApp
 ```
 
 More info on this can be found on the Ionic [Getting Started](http://ionicframework.com/docs/v2/getting-started/) page.
+
+How to create an ionic .apk package
+ionic platform add android
+ionic build android
+
