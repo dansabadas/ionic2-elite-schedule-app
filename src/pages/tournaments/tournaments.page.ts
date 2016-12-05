@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
-
+import { MyTeamsPage } from '../pages';
 /*
   Generated class for the Tournaments page.
 
@@ -19,4 +19,7 @@ export class TournamentsPage {
     console.log('Hello TournamentsPage Page');
   }
 
+  navigate(){
+    this.navCtrl.pop();
+  }
 }
